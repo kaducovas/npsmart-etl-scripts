@@ -1,0 +1,10 @@
+#
+# sample_csv.ctl -- Control file to load CSV input data
+#
+#    Copyright (c) 2007-2015, NIPPON TELEGRAPH AND TELEPHONE CORPORATION
+#
+TYPE = FUNCTION                            # Input file type
+WRITER = PARALLEL
+PARSE_ERRORS = -1
+DUPLICATE_ERRORS = -1
+#LOGFILE = /home/postgres/log/staging.txt

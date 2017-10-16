@@ -1,0 +1,10 @@
+TYPE = CSV 
+#INPUT = stdin                           # Input file type
+#QUOTE = ""                          # Quoting character
+ESCAPE = \                            # Escape character for Quoting
+DELIMITER = ","                       # Delimiter
+WRITER = PARALLEL
+PARSE_ERRORS = -1
+DUPLICATE_ERRORS = -1
+NULL = ""
+#LOGFILE = /home/postgres/log/staging.txt
